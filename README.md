@@ -1,4 +1,4 @@
-# An ACME Shell script: acme.sh [![Build Status](https://travis-ci.org/Neilpang/acme.sh.svg?branch=master)](https://travis-ci.org/Neilpang/acme.sh)
+# An ACME Shell script: acme.sh [![Build Status](https://travis-ci.org/li2xi/acme.sh.svg?branch=master)](https://travis-ci.org/li2xi/acme.sh)
 
 [![Join the chat at https://gitter.im/acme-sh/Lobby](https://badges.gitter.im/acme-sh/Lobby.svg)](https://gitter.im/acme-sh/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 - An ACME protocol client written purely in Shell (Unix shell) language.
@@ -16,14 +16,14 @@
 
 It's probably the `easiest & smartest` shell script to automatically issue & renew the free certificates from Let's Encrypt.
 
-Wiki: https://github.com/Neilpang/acme.sh/wiki
+Wiki: https://github.com/li2xi/acme.sh/wiki
 
-For Docker Fans: [acme.sh :two_hearts: Docker ](https://github.com/Neilpang/acme.sh/wiki/Run-acme.sh-in-docker)
+For Docker Fans: [acme.sh :two_hearts: Docker ](https://github.com/li2xi/acme.sh/wiki/Run-acme.sh-in-docker)
 
-Twitter: [@neilpangxa](https://twitter.com/neilpangxa)
+Twitter: [@li2xixa](https://twitter.com/li2xixa)
 
 
-# [中文说明](https://github.com/Neilpang/acme.sh/wiki/%E8%AF%B4%E6%98%8E)
+# [中文说明](https://github.com/li2xi/acme.sh/wiki/%E8%AF%B4%E6%98%8E)
 
 # Who:
 - [FreeBSD.org](https://blog.crashed.org/letsencrypt-in-freebsd-org/)
@@ -39,41 +39,41 @@ Twitter: [@neilpangxa](https://twitter.com/neilpangxa)
 - [opnsense.org](https://github.com/opnsense/plugins/tree/master/security/acme-client/src/opnsense/scripts/OPNsense/AcmeClient)
 - [CentOS Web Panel](http://centos-webpanel.com/)
 - [lnmp.org](https://lnmp.org/)
-- [more...](https://github.com/Neilpang/acme.sh/wiki/Blogs-and-tutorials)
+- [more...](https://github.com/li2xi/acme.sh/wiki/Blogs-and-tutorials)
 
 # Tested OS
 
 | NO | Status| Platform|
 |----|-------|---------|
-|1|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/ubuntu-latest.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)| Ubuntu
-|2|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/debian-latest.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)| Debian
-|3|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/centos-latest.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|CentOS
-|4|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/windows-cygwin.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|Windows (cygwin with curl, openssl and crontab included)
-|5|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/freebsd.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|FreeBSD
-|6|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/pfsense.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|pfsense
-|7|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/opensuse-latest.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|openSUSE
-|8|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/alpine-latest.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|Alpine Linux (with curl)
-|9|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/base-archlinux.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|Archlinux
-|10|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/fedora-latest.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|fedora
-|11|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/kalilinux-kali-linux-docker.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|Kali Linux
-|12|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/oraclelinux-latest.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|Oracle Linux
-|13|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/proxmox.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)| Proxmox https://pve.proxmox.com/wiki/HTTPSCertificateConfiguration#Let.27s_Encrypt_using_acme.sh
-|14|-----| Cloud Linux  https://github.com/Neilpang/le/issues/111
-|15|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/openbsd.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|OpenBSD
-|16|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/mageia.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|Mageia
-|17|-----| OpenWRT: Tested and working. See [wiki page](https://github.com/Neilpang/acme.sh/wiki/How-to-run-on-OpenWRT)
-|18|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/solaris.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|SunOS/Solaris
-|19|[![](https://cdn.rawgit.com/Neilpang/acmetest/master/status/gentoo-stage3-amd64.svg)](https://github.com/Neilpang/letest#here-are-the-latest-status)|Gentoo Linux
-|20|[![Build Status](https://travis-ci.org/Neilpang/acme.sh.svg?branch=master)](https://travis-ci.org/Neilpang/acme.sh)|Mac OSX
+|1|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/ubuntu-latest.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)| Ubuntu
+|2|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/debian-latest.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)| Debian
+|3|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/centos-latest.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|CentOS
+|4|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/windows-cygwin.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|Windows (cygwin with curl, openssl and crontab included)
+|5|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/freebsd.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|FreeBSD
+|6|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/pfsense.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|pfsense
+|7|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/opensuse-latest.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|openSUSE
+|8|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/alpine-latest.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|Alpine Linux (with curl)
+|9|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/base-archlinux.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|Archlinux
+|10|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/fedora-latest.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|fedora
+|11|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/kalilinux-kali-linux-docker.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|Kali Linux
+|12|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/oraclelinux-latest.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|Oracle Linux
+|13|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/proxmox.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)| Proxmox https://pve.proxmox.com/wiki/HTTPSCertificateConfiguration#Let.27s_Encrypt_using_acme.sh
+|14|-----| Cloud Linux  https://github.com/li2xi/le/issues/111
+|15|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/openbsd.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|OpenBSD
+|16|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/mageia.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|Mageia
+|17|-----| OpenWRT: Tested and working. See [wiki page](https://github.com/li2xi/acme.sh/wiki/How-to-run-on-OpenWRT)
+|18|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/solaris.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|SunOS/Solaris
+|19|[![](https://cdn.rawgit.com/li2xi/acmetest/master/status/gentoo-stage3-amd64.svg)](https://github.com/li2xi/letest#here-are-the-latest-status)|Gentoo Linux
+|20|[![Build Status](https://travis-ci.org/li2xi/acme.sh.svg?branch=master)](https://travis-ci.org/li2xi/acme.sh)|Mac OSX
 
-For all build statuses, check our [weekly build project](https://github.com/Neilpang/acmetest):
+For all build statuses, check our [weekly build project](https://github.com/li2xi/acmetest):
 
-https://github.com/Neilpang/acmetest
+https://github.com/li2xi/acmetest
 
 # Supported CA
 
 - Letsencrypt.org CA(default)
-- [BuyPass.com CA](https://github.com/Neilpang/acme.sh/wiki/BuyPass.com-CA)
+- [BuyPass.com CA](https://github.com/li2xi/acme.sh/wiki/BuyPass.com-CA)
 
 # Supported modes
 
@@ -83,15 +83,15 @@ https://github.com/Neilpang/acmetest
 - Apache mode
 - Nginx mode
 - DNS mode
-- [DNS alias mode](https://github.com/Neilpang/acme.sh/wiki/DNS-alias-mode)
-- [Stateless mode](https://github.com/Neilpang/acme.sh/wiki/Stateless-Mode)
+- [DNS alias mode](https://github.com/li2xi/acme.sh/wiki/DNS-alias-mode)
+- [Stateless mode](https://github.com/li2xi/acme.sh/wiki/Stateless-Mode)
 
 
 # 1. How to install
 
 ### 1. Install online
 
-Check this project: https://github.com/Neilpang/get.acme.sh
+Check this project: https://github.com/li2xi/get.acme.sh
 
 ```bash
 curl https://get.acme.sh | sh
@@ -109,14 +109,14 @@ wget -O -  https://get.acme.sh | sh
 Clone this project and launch installation:
 
 ```bash
-git clone https://github.com/Neilpang/acme.sh.git
+git clone https://github.com/li2xi/acme.sh.git
 cd ./acme.sh
 ./acme.sh --install
 ```
 
 You `don't have to be root` then, although `it is recommended`.
 
-Advanced Installation: https://github.com/Neilpang/acme.sh/wiki/How-to-install
+Advanced Installation: https://github.com/li2xi/acme.sh/wiki/How-to-install
 
 The installer will perform 3 actions:
 
@@ -178,7 +178,7 @@ The certs will be placed in `~/.acme.sh/example.com/`
 
 The certs will be renewed automatically every **60** days.
 
-More examples: https://github.com/Neilpang/acme.sh/wiki/How-to-issue-a-cert
+More examples: https://github.com/li2xi/acme.sh/wiki/How-to-issue-a-cert
 
 
 # 3. Install the cert to Apache/Nginx etc.
@@ -224,7 +224,7 @@ Port `80` (TCP) **MUST** be free to listen on, otherwise you will be prompted to
 acme.sh --issue --standalone -d example.com -d www.example.com -d cp.example.com
 ```
 
-More examples: https://github.com/Neilpang/acme.sh/wiki/How-to-issue-a-cert
+More examples: https://github.com/li2xi/acme.sh/wiki/How-to-issue-a-cert
 
 # 5. Use Standalone ssl server to issue cert
 
@@ -236,7 +236,7 @@ Port `443` (TCP) **MUST** be free to listen on, otherwise you will be prompted t
 acme.sh --issue --alpn -d example.com -d www.example.com -d cp.example.com
 ```
 
-More examples: https://github.com/Neilpang/acme.sh/wiki/How-to-issue-a-cert
+More examples: https://github.com/li2xi/acme.sh/wiki/How-to-issue-a-cert
 
 
 # 6. Use Apache mode
@@ -257,7 +257,7 @@ acme.sh --issue --apache -d example.com -d www.example.com -d cp.example.com
 You will need to configure your website config files to use the cert by yourself.
 We don't want to mess your apache server, don't worry.**
 
-More examples: https://github.com/Neilpang/acme.sh/wiki/How-to-issue-a-cert
+More examples: https://github.com/li2xi/acme.sh/wiki/How-to-issue-a-cert
 
 # 7. Use Nginx mode
 
@@ -281,7 +281,7 @@ acme.sh --issue --nginx -d example.com -d www.example.com -d cp.example.com
 You will need to configure your website config files to use the cert by yourself.
 We don't want to mess your nginx server, don't worry.**
 
-More examples: https://github.com/Neilpang/acme.sh/wiki/How-to-issue-a-cert
+More examples: https://github.com/li2xi/acme.sh/wiki/How-to-issue-a-cert
 
 # 8. Automatic DNS API integration
 
@@ -354,19 +354,19 @@ You don't have to do anything manually!
 
 And:
 
-**lexicon DNS API: https://github.com/Neilpang/acme.sh/wiki/How-to-use-lexicon-dns-api
+**lexicon DNS API: https://github.com/li2xi/acme.sh/wiki/How-to-use-lexicon-dns-api
    (DigitalOcean, DNSimple, DNSMadeEasy, DNSPark, EasyDNS, Namesilo, NS1, PointHQ, Rage4 and Vultr etc.)**
 
 
 **More APIs coming soon...**
 
-If your DNS provider is not on the supported list above, you can write your own DNS API script easily. If you do, please consider submitting a [Pull Request](https://github.com/Neilpang/acme.sh/pulls) and contribute it to the project.
+If your DNS provider is not on the supported list above, you can write your own DNS API script easily. If you do, please consider submitting a [Pull Request](https://github.com/li2xi/acme.sh/pulls) and contribute it to the project.
 
 For more details: [How to use DNS API](dnsapi)
 
 # 9. Use DNS manual mode:
 
-See: https://github.com/Neilpang/acme.sh/wiki/dns-manual-mode first.
+See: https://github.com/li2xi/acme.sh/wiki/dns-manual-mode first.
 
 If your dns provider doesn't support any api access, you can add the txt record by your hand.
 
@@ -499,7 +499,7 @@ acme.sh --upgrade --auto-upgrade 0
 
 # 15. Issue a cert from an existing CSR
 
-https://github.com/Neilpang/acme.sh/wiki/Issue-a-cert-from-existing-CSR
+https://github.com/li2xi/acme.sh/wiki/Issue-a-cert-from-existing-CSR
 
 
 # 16. Under the Hood
@@ -521,7 +521,7 @@ License is GPLv3
 
 Please Star and Fork me.
 
-[Issues](https://github.com/Neilpang/acme.sh/issues) and [pull requests](https://github.com/Neilpang/acme.sh/pulls) are welcome.
+[Issues](https://github.com/li2xi/acme.sh/issues) and [pull requests](https://github.com/li2xi/acme.sh/pulls) are welcome.
 
 
 # 19. Donate
@@ -529,4 +529,4 @@ Your donation makes **acme.sh** better:
 
 1. PayPal/Alipay(支付宝)/Wechat(微信): [https://donate.acme.sh/](https://donate.acme.sh/)
   
-[Donate List](https://github.com/Neilpang/acme.sh/wiki/Donate-list)
+[Donate List](https://github.com/li2xi/acme.sh/wiki/Donate-list)

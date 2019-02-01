@@ -6,7 +6,7 @@ PROJECT_NAME="acme.sh"
 
 PROJECT_ENTRY="acme.sh"
 
-PROJECT="https://github.com/Neilpang/$PROJECT_NAME"
+PROJECT="https://github.com/li2xi/$PROJECT_NAME"
 
 DEFAULT_INSTALL_HOME="$HOME/.$PROJECT_NAME"
 _SCRIPT_="$0"
@@ -101,15 +101,15 @@ SYSLOG_LEVEL_DEFAULT=$SYSLOG_LEVEL_ERROR
 #none
 SYSLOG_LEVEL_NONE=0
 
-_DEBUG_WIKI="https://github.com/Neilpang/acme.sh/wiki/How-to-debug-acme.sh"
+_DEBUG_WIKI="https://github.com/li2xi/acme.sh/wiki/How-to-debug-acme.sh"
 
-_PREPARE_LINK="https://github.com/Neilpang/acme.sh/wiki/Install-preparations"
+_PREPARE_LINK="https://github.com/li2xi/acme.sh/wiki/Install-preparations"
 
-_STATELESS_WIKI="https://github.com/Neilpang/acme.sh/wiki/Stateless-Mode"
+_STATELESS_WIKI="https://github.com/li2xi/acme.sh/wiki/Stateless-Mode"
 
-_DNS_ALIAS_WIKI="https://github.com/Neilpang/acme.sh/wiki/DNS-alias-mode"
+_DNS_ALIAS_WIKI="https://github.com/li2xi/acme.sh/wiki/DNS-alias-mode"
 
-_DNS_MANUAL_WIKI="https://github.com/Neilpang/acme.sh/wiki/dns-manual-mode"
+_DNS_MANUAL_WIKI="https://github.com/li2xi/acme.sh/wiki/dns-manual-mode"
 
 _DNS_MANUAL_ERR="The dns manual mode can not renew automatically, you must issue it again manually. You'd better use the other modes instead."
 

@@ -2,7 +2,7 @@
 
 If your dns provider doesn't provide api access, you can use our dns alias mode: 
 
-https://github.com/Neilpang/acme.sh/wiki/DNS-alias-mode
+https://github.com/li2xi/acme.sh/wiki/DNS-alias-mode
 
 ## 1. Use CloudFlare domain API to automatically issue cert
 
@@ -99,7 +99,7 @@ The `PDNS_Url`, `PDNS_ServerId`, `PDNS_Token` and `PDNS_Ttl` will be saved in `~
 
 ## 6. Use OVH/kimsufi/soyoustart/runabove API to automatically issue cert
 
-https://github.com/Neilpang/acme.sh/wiki/How-to-use-OVH-domain-api
+https://github.com/li2xi/acme.sh/wiki/How-to-use-OVH-domain-api
 
 
 ## 7. Use nsupdate to automatically issue cert
@@ -195,7 +195,7 @@ The `ME_Key` and `ME_Secret` will be saved in `~/.acme.sh/account.conf` and will
 
 ## 10. Use Amazon Route53 domain API
 
-https://github.com/Neilpang/acme.sh/wiki/How-to-use-Amazon-Route53-API
+https://github.com/li2xi/acme.sh/wiki/How-to-use-Amazon-Route53-API
 
 ```
 export  AWS_ACCESS_KEY_ID=XXXXXXXXXX
@@ -976,7 +976,7 @@ export CLOUDSDK_ACTIVE_CONFIG_NAME=default  # see the note above
 acme.sh --issue --dns dns_gcloud -d example.com -d '*.example.com'
 ```
 
-`dns_gcloud` also supports [DNS alias mode](https://github.com/Neilpang/acme.sh/wiki/DNS-alias-mode).
+`dns_gcloud` also supports [DNS alias mode](https://github.com/li2xi/acme.sh/wiki/DNS-alias-mode).
 
 ## 50. Use ConoHa API
 
@@ -1188,8 +1188,8 @@ acme.sh --issue --dns dns_myapi -d example.com -d www.example.com
 
 For more details, please check our sample script: [dns_myapi.sh](dns_myapi.sh)
 
-See:  https://github.com/Neilpang/acme.sh/wiki/DNS-API-Dev-Guide
+See:  https://github.com/li2xi/acme.sh/wiki/DNS-API-Dev-Guide
 
 # Use lexicon DNS API
 
-https://github.com/Neilpang/acme.sh/wiki/How-to-use-lexicon-dns-api
+https://github.com/li2xi/acme.sh/wiki/How-to-use-lexicon-dns-api

@@ -1,6 +1,6 @@
 # Using deploy api
 
-Before you can deploy your cert, you must [issue the cert first](https://github.com/Neilpang/acme.sh/wiki/How-to-issue-a-cert).
+Before you can deploy your cert, you must [issue the cert first](https://github.com/li2xi/acme.sh/wiki/How-to-issue-a-cert).
 
 Here are the scripts to deploy the certs/key to the server/services.
 
@@ -22,7 +22,7 @@ acme.sh --deploy -d example.com --deploy-hook cpanel
 
 ## 2. Deploy ssl cert on kong proxy engine based on api
 
-Before you can deploy your cert, you must [issue the cert first](https://github.com/Neilpang/acme.sh/wiki/How-to-issue-a-cert).
+Before you can deploy your cert, you must [issue the cert first](https://github.com/li2xi/acme.sh/wiki/How-to-issue-a-cert).
 Currently supports Kong-v0.10.x.
 
 ```sh

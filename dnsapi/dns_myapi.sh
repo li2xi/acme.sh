@@ -6,8 +6,8 @@
 #Which will be called by acme.sh to add the txt record to your api system.
 #returns 0 means success, otherwise error.
 #
-#Author: Neilpang
-#Report Bugs here: https://github.com/Neilpang/acme.sh
+#Author: li2xi
+#Report Bugs here: https://github.com/li2xi/acme.sh
 #
 ########  Public functions #####################
 
